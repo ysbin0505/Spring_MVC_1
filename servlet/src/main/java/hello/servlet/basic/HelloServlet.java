@@ -23,7 +23,7 @@ public class HelloServlet extends HttpServlet {
 
     response.setContentType("text/plain");    //header에 들어감 (content type)  F12
     response.setCharacterEncoding("utf-8");   //header에 들어감 (content type)  F12
-    response.getWriter().write("hello " + username);   //body에 들어감       F12
+    response.getWriter().write("hello " + username);   //body에 들어감       F12  //화면에 출력되는 것
 
   }
 }
