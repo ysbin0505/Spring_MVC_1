@@ -38,3 +38,8 @@ out/
 .vscode/
 
 **/application.properties
+
+# Gradle
+.gradle
+/build/
+.gradletasknamecache
