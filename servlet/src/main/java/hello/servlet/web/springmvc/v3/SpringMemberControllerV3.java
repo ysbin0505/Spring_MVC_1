@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.List;
 
 @Controller
-@RequestMapping("/springmvc/v3/members")
+@RequestMapping("/springmvc/v3/members")  //기본 이거 포함
 public class SpringMemberControllerV3 {
 
   private MemberRepository memberRepository = MemberRepository.getInstance();
